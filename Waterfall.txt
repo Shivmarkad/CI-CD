@@ -1,0 +1,29 @@
+Waterfall Project management:
+
+The Waterfall methodology has long been recognized as a structured and 
+sequential approach to project management.
+
+Each step is preplanned in a linear sequence
+straightforward way to manage a project has 5-7 phases
+
+Maps project in distict and sequential phases each phase begins only when previous
+one has been completed.
+
+1. Requirements phase 
+    Gathers requirements and documentation for project.
+
+2. Design phase 
+    Turns requirements into a functional structure for how project will be implented.
+
+3. Implemenation phase
+    Specification from the Design phase is executed
+
+4. Testing phase
+    Ensures all the project components are error-free and functioning as expected.
+
+5. Deployment phase
+    Project is ready and test and presented the client
+
+6. Maintenance Phase 
+    Ensures the quality remains and patches , upkeep and further management
+
