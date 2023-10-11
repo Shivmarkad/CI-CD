@@ -1,0 +1,44 @@
+
+Agile:
+Agile is an iterative way of managing projects and developing software that 
+makes it easier for teams to deliver value to their customers more quickly and effectively.
+
+As a result of continuously evaluating requirements, plans, and results, 
+teams are able to respond to change in a timely manner.
+
+Agile’s four main values are:
+
+    -Individuals and interactions over processes and tools
+    -Working software over comprehensive documentation
+    -Customer collaboration over contract negotiation
+    -Responding to change over following a plan
+
+Scrum: Principle-based project management
+Kanban: Visual workflows and processes
+Scrumban: Hybrid of Scrum and Kanban
+Extreme Programming XP: Customer-focused product development
+Adaptive Project Framework APF: Versatile teamwork
+
+Agile Methodology
+
+1. Extreme Programming
+    -Framework to create high-quality software
+    -applicable while handling changing software requirements risks caused due to new software
+
+2. Kanban
+    -enables organizations to visualize their flow of work and limit the amount of work in progress.
+    -used in situations where work arrives unpredictably, and where it needs to be deployed 
+     immediately without waiting for other work items. 
+
+     Todo => in progress = > completed
+
+    -Ideal for continuous delivery
+    -Supports continuous delivery
+    -Less focus on roles and events
+    -Focus on workflow rather that sprints
+
+3. Lean
+    -It is a set of tools and principles that focuses on identifying and
+    removing waste to speed up process development.
+    -Value is maximized, and waste is minimized. 
+
