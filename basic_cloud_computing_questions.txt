@@ -1,0 +1,234 @@
+1. What is client-server architecture
+	
+	Client – The client can be any computer that requests something from the server. 
+	Server- the Server is the computer that is designed to serve the requests to the client.
+The client-server communication adheres to the TCP protocol suite.
+	The client-server architecture refers to a system that hosts, delivers, and manages most of the resources and services that the client requests. 
+If any client wants some data with any server then it first asks for the IP address for the particular server from the DNS (Domain name System). The DNS server responds with the IP Address.
+To that IP Address, the client sends the request to the particular server with the port number that is specified to the particular application, and then the server responds. 
+The response message is received by the client and based on the port number, the response packet is consumed by the application to which it belongs.
+1-Tier Architecture
+In 1-Tier Client Server Architecture, Everything related to the application is grouped and used as a single package to deliver the application.
+
+2-tier architecture
+	In 2-tier Client Server Architecture, the whole application logic is divided into 2 layers. The database acts as a separate entity in this architecture.
+
+3-Tier Architecture
+In 3-tier architecture, there are three main layers: presentation layer, application layer, and database layer. 
+
+2. What is Server
+	A server is a computer program or device that provides a service to another computer program and its user, also known as the client. 
+
+3. What is the on-premise server
+	A physical server or computing infrastructure that is located within an organisation's own physical facility or data centre,
+
+
+4. What is the difference between 1-tier, 2-tier and 3-tier architecture
+
+1 Tier
+1 tier architecture, also known as single-tier architecture, refers to that kind of software architecture in which all the required components for the working of an application are available under the same package.
+	It means that the user interface, business,  layers are accessible by the application under the same local drive. 
+	MS Office is a prominent example of 1 tier architecture. 
+2-Tier
+2 tier architecture is the one in which the user interface layer and the database layer are located in two different machines. It means that the client and the server are not on the same computer.
+The client, which is the user side device, gives the instructions. 
+Then the server which stores all the data and information is asked to provide the required data or make changes in the existing data. 
+The business layer is present on the server machine.
+3-Tier
+In 3 tier architecture, the application layer, the business layer and the database layer are located in separate machines.
+The client layer requests for the data.
+The application server acts as an interface between the client and the server layer.
+
+5. What is cloud computing
+	Cloud computing is the on-demand delivery of IT resources over the Internet with pay-as-you-go pricing. 
+Instead of buying, owning, and maintaining physical data centres and servers, you can access technology services, such as computing power, storage, and databases, on an as-needed basis from a cloud provider like Amazon Web Services (AWS).
+
+
+6. What are the diff cloud providers present in the  market
+	Amazon Web Services (AWS) is the cloud infrastructure provider from Amazon. AWS was founded in 2006 and is now the leading cloud provider in the world, with a market share of 32% in Q1 2023.
+	Microsoft Azure, which was first launched in 2010 from the Microsoft Corporation, is the second-largest cloud provider in the global cloud market, with a market share of 23% in Q1 2023. 
+	Google Cloud Platform (GCP) was started by Google in 2011 and is the third-largest cloud provider in the world, with a market share of 9% in Q1 2023. 
+
+	AWS boasts global reach and a wide service offering, ideal for diverse applications.
+
+	Azure excels in seamless integration with the Microsoft ecosystem and strong security features, making it a top choice for enterprises.
+
+	GCP’s expertise in data analytics, Kubernetes, and high-performance networking makes it attractive for data-driven and containerized applications.
+	
+	AWS (Amazon Web Services)
+Global reach and scalability
+Wide service offering
+Mature ecosystem
+
+	Azure (Microsoft Azure)
+Integration with the Microsoft ecosystem
+Hybrid cloud solutions
+Strong emphasis on security	
+
+	GCP (Google Cloud platform)
+Data and analytics expertise
+Kubernetes prowess
+Performance and networking
+
+7. What are the types of cloud services: IaaS, PaaS, serverless, and SaaS
+	Iaas: 
+Infrastructure-as-a-service, or IaaS, is a step away from on-premises infrastructure. 
+It’s a pay-as-you-go service where a third party provides you with infrastructure services, like storage and virtualization, as you need them, via a cloud, through the internet.
+		IaaS is ideal for small and medium-sized enterprises which lack the technical ability to build up and maintain a server
+You rent a server and deploy your operations on it.
+You own the service while you pay for it and utilise it.
+Nobody else has access to that zone.
+
+
+
+	PaaS
+		Platform as a service (PaaS) enables users to create, operate, and manage apps without worrying about creating and maintaining the architecture traditionally needed for developing and deploying an app.
+	By having access to built-in, pre-programmed apps, customers may create their products more quickly and without having to start from the beginning with coding.
+Cost-efficient and simple management system
+Capability to construct environments that are both extraordinarily scalable and accessible.
+Reduced need for infrastructure administration and monitoring, which saves time and money.
+Support for automation that decreases the software development lifecycle’s workload.
+	
+
+
+Saas
+		Software as a service (SaaS) allows users to connect to and use cloud-based apps over the Internet. Common examples are email, calendaring, and office tools (such as Microsoft Office 365). 
+SaaS provides a complete software solution that you purchase on a pay-as-you-go basis from a cloud service provider.
+
+
+8. What is a data centre
+	 A data centre is a physical facility that organisations use to house their critical applications and data.
+	The key components of a data centre design include routers, switches, firewalls, storage systems, servers, and application-delivery controllers.
+	Modern data centre design evolved to better manage IT complexity. Companies used data centres to store physical infrastructure in a central location that they could access from anywhere.
+Data centres also contain these components:
+Power subsystems
+Uninterruptible power supplies (UPS)
+Backup generators
+Ventilation and cooling equipment
+Fire suppression systems
+Building security systems 
+
+	Types of data centres
+   On- premise data centres
+   Colocation data centres
+   Cloud Data centres
+	
+
+
+
+	
+9. Diff between aws,azure and gcp
+
+AWS key tools 
+Artificial Intelligence and Machine learning:
+AWS has released Gluon. 
+This open-source deep-learning library allows developers and non-developers to build neural networks without prior knowledge of AI. 
+DeepLens is an AI-powered camera that may create and implement machine learning algorithms for optical character recognition, image identification, and object recognition.
+
+
+SageMaker to Serverless: 
+SageMaker is another AWS service used to train and deploy machine learning models. 
+It also includes the Lex conversational interface, enabling Alexa services, Greengrass IoT messaging, and Lambda serverless computing.
+
+Azure key tools
+Cognitive Services:
+Bing Web Search API, Face API, Computer Vision API, and Custom Vision Service are among the cognitive services available. 
+Microsoft offers many IoT management and analytics services and functions, and a serverless computing solution.
+Supporting MSFT Software: 
+Azure includes several solutions that support Microsoft products installed on-premises. 
+Windows Server Backup in Windows Server 2012 R2 and Windows Server 2016 linked to Azure Backup. 
+Visual Studio projects are hosted on Azure by Visual Studio Team Services.
+
+Google cloud key tools
+IoT to Serverless: 
+Google Cloud includes APIs for natural language, speech, translation, and other advanced technologies. It also offers IoT and serverless services. 
+However, these are still beta versions.
+Big On AI: 
+Google Cloud is now the frontrunner in AI advancement. 
+TensorFlow, an open-source software library for creating machine learning applications, deserves credit.
+
+
+
+
+
+
+
+
+
+10. What are the advs and dis with cloud computing
+
+Advantages of Cloud Computing: -
+ Back-up and restore data
+Once the data is stored in the cloud, it is easier to get back-up and restore that data using the cloud.
+
+
+Improved collaboration
+Cloud applications improve collaboration by allowing groups of people to quickly and easily share information in the cloud via shared storage.
+
+Excellent accessibility
+Cloud allows us to quickly and easily access store information anywhere, anytime in the whole world, using an internet connection. 
+An internet cloud infrastructure increases organisation productivity and efficiency by ensuring that our data is always accessible.
+
+Low maintenance cost
+Cloud computing reduces both hardware and software maintenance costs for organisations.
+
+Mobility
+Cloud computing allows us to easily access all cloud data via mobile.
+
+IServices in the pay-per-use model
+Cloud computing offers Application Programming Interfaces (APIs) to the users for access services on the cloud and pays the charges as per the usage of service.
+
+Unlimited storage capacity
+Cloud offers us a huge amount of storage capacity for storing our important data such as documents, images, audio, video, etc. in one place.
+
+Data security
+Data security is one of the biggest advantages of cloud computing. Cloud offers many advanced features related to security and ensures that data is securely stored and handled.
+
+Disadvantages of Cloud Computing
+Internet Connectivity
+In cloud computing, every piece of data (image, audio, video, etc.) is stored on the cloud, and we access this data through the cloud by using the internet connection. 
+If you do not have good internet connectivity, you cannot access this data. However, we have no other way to access data from the cloud.
+
+Vendor lock-in
+Vendor lock-in is the biggest disadvantage of cloud computing. Organisations may face problems when transferring their services from one vendor to another. 
+As different vendors provide different platforms, that can cause difficulty moving from one cloud to another.
+Limited Control
+Cloud infrastructure is completely owned, managed, and monitored by the service provider, so the cloud users have less control over the function and execution of services within a cloud infrastructure.
+Security
+Although cloud service providers implement the best security standards to store important information. 
+But, before adopting cloud technology, you should be aware that you will be sending all your organisation's sensitive information to a third party, i.e., a cloud computing service provider. 
+While sending the data on the cloud, there may be a chance that your organisation's information is hacked by Hackers.
+
+
+
+11. Types of cloud computing - public, private, hybrid
+
+Public Cloud
+Public cloud is open to all to store and access information via the Internet using the pay-per-usage method.
+In the public cloud, computing resources are managed and operated by the Cloud Service Provider (CSP). 
+The CSP looks after the supporting infrastructure and ensures that the resources are accessible to and scalable for the users.
+	Due to its open architecture, anyone with an internet connection may use the public cloud, regardless of location or company size. 
+Example: 
+Amazon elastic compute cloud (EC2), IBM SmartCloud Enterprise, Microsoft, Google App Engine, Windows Azure Services Platform.
+
+Private Cloud
+Private cloud is also known as an internal cloud or corporate cloud. 
+It is used by organisations to build and manage their own data centres internally or by a third party.
+It can be deployed using Open Source tools such as Openstack and Eucalyptus.
+
+Examples: VMware vSphere, OpenStack, Microsoft Azure Stack, Oracle Cloud at Customer, and IBM Cloud Private.
+
+
+
+Hybrid Cloud
+Hybrid Cloud is a combination of the public cloud and the private cloud.
+Hybrid cloud is partially secure because the services which are running on the public cloud can be accessed by anyone, while the services which are running on a private cloud can be accessed only by the organisation's users.
+Example: Google Application Suite (Gmail, Google Apps, and Google Drive), Office 365 (MS Office on the Web and OneDrive), Amazon Web Services.
+
+
+
+12. What is server and serverless computing
+
+Serverless computing is a cloud computing execution model in which the cloud provider allocates machine resources on demand, taking care of the servers on behalf of their customers
+Serverless computing is a method of providing backend services on an as-used basis. 
+A serverless provider allows users to write and deploy code without the hassle of worrying about the underlying infrastructure. 
